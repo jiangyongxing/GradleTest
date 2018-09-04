@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="cn.fengrong.gradletest.LoginActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:background="@drawable/login"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/la_phone"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:hint="手机号登录"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/la_code"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="验证码"
+        android:inputType="number"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/la_login"
+        android:layout_width="290dp"
+        android:layout_height="64dp"
+        android:text="登录"
+        android:textSize="26dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_login_bg"/>
+
+
+    <TextView
+        android:id="@+id/la_version"
+        android:gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        android:textSize="12sp"
+        android:textColor="#999999"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

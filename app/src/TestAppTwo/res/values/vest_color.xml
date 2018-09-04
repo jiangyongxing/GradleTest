@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#F25146</color>
+    <color name="colorPrimaryDark">#F25146</color>
+    <color name="colorAccent">#88000000</color>
+
+
+    <!--按钮的两种颜色-->
+    <color name="btnEnableColor">#fdb738</color>
+    <color name="btnDisableColor">#bdbdbd</color>
+
+
+</resources>
